@@ -41,7 +41,7 @@ The balance of the contract was confirmed using the `contractBalance` function.
 ## Deposit 5 ether
 ### Deposit ether
 ![Deposit 5 ether](Execution_Results/deposit_5_ether.png)  
-The deposit of 5 ether into the joint account was performed by setting the `VALUE` input to `5 Ether` and using the `deposit` function.
+The deposit of 5 ether into the joint account was performed by setting the `VALUE` inputs to `5` and `Ether`, and using the `deposit` function.
 
 ### Confirm contract balance
 ![Deposit 5 ether - contractBalance](Execution_Results/deposit_5_ether_contractBalance.png)  
