@@ -6,7 +6,7 @@ The contract contained herein allows two addresses to control a joint savings ac
 - funds deposit;
 - funds withdrawal.
 
-For the purpose of this demonstration, the contract will be deployed in the Remix Ethereum IDE. All tasks listed below were performed on the *DEPLOY & RUN TRANSACTIONS* page.
+For the purpose of this demonstration, the contract will be deployed in the [Remix Ethereum IDE](https://remix.ethereum.org/). All tasks listed below were performed on the *DEPLOY & RUN TRANSACTIONS* page.
 
 ## Deploy contract
 ![Deploy contract](Execution_Results/deploy_contract.png)  
@@ -22,14 +22,14 @@ The function was processed by clicking the `transact` button.
 
 ## Deposit 1 ether as wei
 ![Deposit 1 ether as wei](Execution_Results/deposit_1_ether_as_wei.png)  
-The deposit of 1 ether as wei into the joint account was performed by setting the `VALUE` input to `1000000000000000000 Wei` and using the `deposit` function.
+The deposit of 1 ether as wei into the joint account was performed by setting the `VALUE` inputs to `1000000000000000000` and `Wei`, and using the `deposit` function.
 
 ![Deposit 1 ether as wei - contractBalance](Execution_Results/deposit_1_ether_as_wei_contractBalance.png)  
 The balance of the contract was confirmed using the `contractBalance` function.
 
 ## Deposit 10 ether as wei
 ![Deposit 10 ether as wei](Execution_Results/deposit_10_ether_as_wei.png)  
-The deposit of 10 ether as wei into the joint account was performed by setting the `VALUE` input to `10000000000000000000 Wei` and using the `deposit` function.
+The deposit of 10 ether as wei into the joint account was performed by setting the `VALUE` inputs to `10000000000000000000` and `Wei`, and using the `deposit` function.
 
 ![Deposit 10 ether as wei - contractBalance](Execution_Results/deposit_10_ether_as_wei_contractBalance.png)  
 The balance of the contract was confirmed using the `contractBalance` function.
